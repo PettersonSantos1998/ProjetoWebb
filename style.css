@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(54, 53, 53, 0.525), #b6b6b6);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    
+}
+a:hover{
+    color: black;
+    border: solid;
+    border-radius: 8px;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    
+    bottom: 0;
+    width: 100%;
+    
+}
+
+img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bold;      
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+
+}
+
+#mapa{
+    margin-left: 190px;
+}
+#horario{
+    text-align: center;
+    
+}
+
+.servico{
+    display:flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.servico img{
+    width: 200px;
+    height: 150px;
+    
+
+}
+h3{
+    text-align: center;
+    color: #444;
+}
+.servico img:hover{
+    border: solid;
+    color: black;
+}
+
